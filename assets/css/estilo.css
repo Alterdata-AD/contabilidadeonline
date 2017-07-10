@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto:100,300,400,700');
+
+html, body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+.uk-navbar-container {
+	background: white !important;
+}
+
+
+.uk-navbar-nav > li > a {
+	color: #999;
+	text-transform: none;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+	-webkit-transition-property: color,background-color;
+	transition-property: color,background-color;
+}
+.areacliente{
+/*background-color:#2397F3;*/
+color:white;
+}
+.areacliente a {
+color:#2397F3 !important;
+}
+h1,h2,h3,h4,h5,.font1{
+font-family: 'Quicksand', sans-serif;
+}
+
+.fotofundo{
+	background-color:#aaa;
+}
+
+.uk-button-text, .uk-button{
+  text-transform: none;
+}

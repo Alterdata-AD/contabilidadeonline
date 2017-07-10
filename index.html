@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Nome do Seu Escritório - Contador Online - Alterdata Software</title>
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="assets/vendor/css/uikit.min.css" />
+        <!-- jQuery is required -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- UIkit JS -->
+        <script src="assets/vendor/js/uikit.min.js"></script>
+        <script src="assets/vendor/js/uikit-icons.min.js"></script>
+        <link rel="stylesheet" href="assets/css/estilo.css" />
+    </head>
+
+    <body>
+
+        <nav class="uk-navbar-container uk-box-shadow-xlarge" uk-navbar>
+            <div class="uk-navbar-center">
+                <div class="uk-navbar-center-left">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">Home</a></li>
+                            <li>
+                                <a href="#">Quem Somos</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Equipe</a></li>
+                                        <li><a href="#">Onde Estamos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Especialidades</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href=""><span>Advogados</span></a></li>
+                                        <li><a href=""><span>Arquitetos</span></a></li>
+                                        <li><a href=""><span>Clínicas</span></a></li>
+                                        <li><a href=""><span>Comércio</span></a></li>
+                                        <li><a href=""><span>Dentistas</span></a></li>
+                                        <li><a href=""><span>Engenheiros</span></a></li>
+                                        <li><a href=""><span>Igrejas</span></a></li>
+                                        <li><a href=""><span>Médicos</span></a></li>
+                                        <li><a href=""><span>Serviços</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="uk-navbar-item uk-logo" href="#"><img width="120" src="assets/img/logo.svg" uk-svg /></a>
+                <div class="uk-navbar-center-right">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li><a href="#">Como Funciona</a></li>
+                            <li class="areacliente"><a href="area-cliente.html">Área do Cliente</a></li>
+                            <li><a href="#">Contato</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="uk-cover-container">
+            <div uk-parallax="bgy: -300" class="uk-background-blend-overlay uk-text-center  fotofundo  uk-background-image@m uk-background-cover uk-background-muted uk-height-medium   uk-flex uk-flex-left uk-flex-middle uk-height-1-1" uk-height-viewport="offset-bottom: 20"
+              style=" background-image: url(assets/img/fundo.jpg); ">
+                <span class="uk-heading-primary  uk-visible@m uk-text-primary uk-dark font1 uk-container uk-container-large">Contabilidade na Nuvem<br />
+                        <small class="uk-margin-remove uk-text-lead">Acessível, Simples e Online</small><br />
+                        <a class="uk-button uk-button-primary uk-button-large uk-margin-top" type="button" uk-toggle="target: #cadastro"><span uk-icon="icon: cloud-upload"></span> apenas R$79,00<small>/mês</small></a>
+                </span>
+                <span class="uk-h4 uk-margin-remove uk-hidden@m">Contabilidade na Nuvem<br />
+                        <small class="uk-margin-remove uk-text-lead">Acessível, Simples e Online</small><br />
+                        <button href="#cadastro"  class="uk-button uk-button-primary uk-button-large uk-margin-top" uk-toggle> apenas <b>R$79,00</b><small>/mês</small></a>
+                </span>
+            </div>
+        </div>
+
+        <article class="uk-article uk-margin-large-top uk-margin-large-bottom">
+            <div class="uk-container uk-container-small">
+                <div class="uk-grid-medium uk-child-width-expand@s uk-text-center uk-grid-match" uk-scrollspy="target: > div; cls:uk-animation-scale-up; delay: 1000" uk-grid>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-card uk-card-default uk-card-body ">
+
+
+                            <h3 class="">Abra sua empresa grátis*</h3>
+                            <p>
+                                Abrir sua empresa nunca foi um processo tão rápido, fácil e prático. Inicie agora!
+                            </p>
+                            <button class="uk-button uk-button-primary"><span uk-icon="icon: plus"></span> Abrir Empresa</button>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-card uk-card-default uk-card-body ">
+                            <h3 class="">Migre sua empresa grátis*</h3>
+                            <p>
+                                Sua empresa com uma contabilidade de confiança, mas muito mais prática e simples!
+                            </p>
+                            <button class="uk-button uk-button-primary"><span uk-icon="icon: move"></span> Migrar Empresa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <hr />
+
+        <article class="uk-article uk-margin-large-top uk-margin-large-bottom">
+            <div class="uk-container ">
+                <div class="uk-grid-medium uk-grid-divider  uk-child-width-expand@s uk-text-center uk-grid-match" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500" uk-grid>
+                    <div class="uk-width-1-4@m ">
+                        <div class="uk-card uk-card-small  uk-card-hover uk-card-body">
+                            <a href="" class="uk-text-primary" uk-icon="icon: credit-card; ratio: 2"></a>
+                            <h4 class="">Redução<br /> de Custo</h4>
+                            <p class=" uk-text-small">Por ser online, alguns processos podem ser eliminados, reduzindo seus gastos com contabilidade.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-4@m">
+                        <div class="uk-card uk-card-small uk-card-hover uk-card-body ">
+                            <a href="" class="uk-text-primary" uk-icon="icon:  lifesaver; ratio: 2"></a>
+                            <h4 class="">Suporte<br /> Online</h4>
+                            <p class="uk-text-small">Atendimento personalizado, feito por um contador online sempre à sua disposição.</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-4@m">
+                        <div class="uk-card uk-card-small uk-card-hover uk-card-body ">
+                            <a href="" class="uk-text-primary" uk-icon="icon:  cog; ratio: 2"></a>
+                            <h4 class="">Fácil <br /> Controle</h4>
+                            <p class=" uk-text-small">Tudo fica numa plataforma na web, onde a qualquer momento você pode consultar seus documentos, CNDs, folha de pagamento e financeiro.</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-4@m">
+                        <div class="uk-card uk-card-small  uk-card-hover uk-card-body">
+                            <a href="" class="uk-text-primary" uk-icon="icon: settings; ratio: 2"></a>
+                            <h4 class="">Planos <br />Personalizados</h4>
+                            <p class=" uk-text-small">Serviços contábeis conforme sua necessidade, você mesmo personaliza seu serviço</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <hr />
+
+        <article class="uk-article uk-margin-large-top uk-margin-large-bottom">
+            <div class="uk-container ">
+                <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="assets/img/servico.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h4>Serviço Simples</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <hr />
+                                <h1 class="uk-text-primary"><small class="uk-text-small">R$</small> 79,99<small class="uk-text-small">/mês</small></h1>
+                            </div>
+                            <div class="uk-card-footer uk-text-justify">
+                                <a href="#" class="uk-button  uk-button-text">Abrir </a> ou <a href="#" class="uk-button uk-button-text">Migrar </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="assets/img/comercio.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h4>Comércio Simples</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <hr />
+                                <h1 class="uk-text-primary"><small class="uk-text-small">R$</small> 129,99<small class="uk-text-small">/mês</small></h1>
+                            </div>
+
+                            <div class="uk-card-footer">
+                                <a href="#" class="uk-button  uk-button-text">Abrir </a> ou <a href="#" class="uk-button uk-button-text">Migrar </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="assets/img/comercioservico.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h4 class="">Comércio + Serviços </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <hr />
+                                <h1 class="uk-text-primary"><small class="uk-text-small">R$</small> 179,99<small class="uk-text-small">/mês</small></h1>
+                            </div>
+
+                            <div class="uk-card-footer">
+                                <a href="#" class="uk-button  uk-button-text">Abrir </a> ou <a href="#" class="uk-button uk-button-text">Migrar </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="assets/img/presumido.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h4 class="">Presumindo Serviços </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <hr />
+                                <h1 class="uk-text-primary"><small class="uk-text-small ">R$</small> 159,99<small class="uk-text-small">/mês</small></h1>
+                            </div>
+
+                            <div class="uk-card-footer">
+                                <a href="#" class="uk-button  uk-button-text">Abrir </a> ou <a href="#" class="uk-button uk-button-text">Migrar </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+
+        <!-- This is the modal -->
+        <div id="cadastro" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">Quero ser Cliente</h2>
+
+                <form>
+                    <div class="uk-margin">
+                        <label>Escolha a Plano:</label><select class="uk-select">
+                            <option>Serviço Simples</option>
+                            <option>Comércio Simples</option>
+                            <option>Comércio e Serviço Simples</option>
+                            <option>Serviços Presumido</option>
+                        </select>
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Digite seu Nome Completo">
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input uk-form-width-medium" type="text" placeholder="Digite seu CPF">
+                        <input class="uk-input uk-form-width-medium" type="text" placeholder="Digite seu RG">
+                    </div>
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" placeholder="Fale um pouco sobre sua empresa"></textarea>
+                    </div>
+                </form>
+
+
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                    <button class="uk-button uk-button-primary" type="button">Cadastro</button>
+                </p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
+
+</body>
+
+</html>
