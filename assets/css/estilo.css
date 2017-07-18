@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto:100,300,400,500,600,700');
 
 html, body {
   background-color: #eee;
@@ -35,4 +35,11 @@ font-family: 'Quicksand', sans-serif;
 
 .uk-button-text, .uk-button{
   text-transform: none;
+}
+
+
+.rodape{
+  background-color: #1F1D22;
+	padding: 30px 20px;
+	text-align: center;
 }
